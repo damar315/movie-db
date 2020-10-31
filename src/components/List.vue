@@ -5,6 +5,7 @@
                 <h5>{{ item.original_title }}</h5>
                 <p>{{ item.overview }}</p>
                 <img :src="`https://image.tmdb.org/t/p/w500${item.poster_path}`" :alt="movie.original_title" />
+                <h5>{{ item.vote_average }}</h5>
             </div>
         </div>
         <div v-else>Data Kosong</div>

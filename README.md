@@ -1,5 +1,5 @@
-# movie-db
-
+# moviedb
+TRY ME: https://the-way.netlify.app/
 ## Project setup
 ```
 npm install
